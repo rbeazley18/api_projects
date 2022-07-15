@@ -45,7 +45,7 @@ def parse_and_extract(url, name='2022'):
         #print(row.text)
         cols = row.find('td')
         row_data = []
-        row_dict_data = {}
+        #row_dict_data = {}
         for i, col in enumerate(cols):
             #print(i, col.text, '\n\n')
             header_name = header_names[i]
