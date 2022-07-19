@@ -2,7 +2,7 @@ import os
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 files_dir = os.path.join(BASE_DIR, 'images')
-
+print(BASE_DIR)
 #if not os.path.exists(files_dir):
 #    print('Not a valid path')
 

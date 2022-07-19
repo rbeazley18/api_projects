@@ -48,8 +48,8 @@ def parse_and_extract(url, name='2022'):
         #row_dict_data = {}
         for i, col in enumerate(cols):
             #print(i, col.text, '\n\n')
-            header_name = header_names[i]
-            row_data[header_name] = col.text
+            # header_name = header_names[i]
+            # row_data[header_name] = col.text
             row_data.append(col.text)
         table_data.append(row_data)
     df = pd.DataFrame(table_data, columns=header_names)
